@@ -25,6 +25,7 @@ public class BackgroundStepDef
 			Thread.sleep(3000);
 			driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 			driver.manage().window().maximize();
+			System.out.println("Window maximize successfully..");
 		}
 		catch(Exception e)
 		{
